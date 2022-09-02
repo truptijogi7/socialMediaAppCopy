@@ -1,0 +1,12 @@
+export const HOMEPAGE = '/';
+export const LOGIN = '/login';
+export const LOGIN1 = '/login1';
+export const SIGN_UP = '/signup';
+export const SIGN_UP1 = '/signup1';
+export const PROFILE = '/p/:username';
+export const NOT_FOUND = '/not-found';
+export const USER_DASHBOARD = '/user-dashboard';
+export const USER_DASHBOARD1 = '/user-dashboard1';
+export const INBOX = '/inbox';
+export const FRIEND_REQUESTS = '/friend-requests';
+export const REGISTER_STEPS = '/register-steps';
