@@ -46,8 +46,8 @@ const SignUp = () => {
       let registeredUser = await createUser(data);
       // sessionStorage.setItem('token', registeredUser.data.token);
       // sessionStorage.setItem('_id', registeredUser.data._id);
-      navigate('/signup1', { state: { id: registeredUser.data._id } });
       alert('Signup Success');
+      navigate('/signup1', { state: { id: registeredUser.data._id } });      
     } catch (error) {
       console.log(error);
     }
