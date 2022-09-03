@@ -88,12 +88,14 @@ function StepOne(props) {
 
   const navigate = useNavigate();
   const { state } = useLocation();
-  if (state) {
-    console.log(state);
-    if (state.id) {
-      setId(state.setId);
+  useEffect(() => {
+    if (state) {
+      console.log(state);
+      if (state.id) {
+        setId(state.id);
+      }
     }
-  }
+  },[]);
 
   // useEffect(() => {
   //   // const token = sessionStorage.getItem('token');
